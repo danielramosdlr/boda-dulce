@@ -1955,10 +1955,11 @@ pre code {
     width: 58.33333333%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 60%;
+    text-align: center;
   }
   .col-md-5 {
-    width: 41.66666667%;
+    width: 55%;
   }
   .col-md-4 {
     width: 33.33333333%;
@@ -2030,7 +2031,7 @@ pre code {
     left: 58.33333333%;
   }
   .col-md-push-6 {
-    left: 50%;
+    left: 20%;
   }
   .col-md-push-5 {
     left: 41.66666667%;
@@ -2042,7 +2043,7 @@ pre code {
     left: 25%;
   }
   .col-md-push-2 {
-    left: 16.66666667%;
+    left: 10%;
   }
   .col-md-push-1 {
     left: 8.33333333%;
