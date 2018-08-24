@@ -38,9 +38,18 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script>
+    function abrir() {
+      y = screen.availWidth;
+      z = screen.availHeight;
+      open('saveDate.jpg','','top=10,left=10,width="+y+",height="+z+",directories=no') ;
+    }
+  </script>
+
 </head>
 
-<body>
+<body onload="abrir()">
+
   <div id="preloader"></div>
 
   <!--==========================
@@ -79,6 +88,7 @@
           <li><a href="#about">Bienvenidos</a></li>
           <li><a href="#testimonials">Preparate</a></li>
           <li><a href="#contact">Ubicación</a></li>
+          <li><a href="#portfolio">Estancias</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -169,7 +179,7 @@
         </div>
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="img/portfolio-5.jpg" alt=""></div>
+            <div class="pic"><img src="img/vestido.jpg" alt=""></div>
             <h4>Etiqueta de Vestimenta</h4>
             <span>Formal</span>
           </div>
@@ -178,11 +188,11 @@
 
       <div class="row">
         <div class="col-md-3">
-          <div class="profile"><a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/44767383" target="_blank">
-            <div class="pic"><img src="img/portfolio-7.jpg" alt=""></div>
+          <div class="profile">
+            <div class="pic"><img src="img/fiesta.gif" alt=""></div>
             <h4>Actitud Positiva</h4>
             <span>Fiesta</span>
-          </div></a>
+          </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
@@ -203,7 +213,7 @@
         <div class="col-md-12">
           <h3 class="section-title">Ubicación</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">No queremos que te pierdas por eso pon atención a las indicaciiones o simplemente da clic en el boton <strong>[Llevame]</strong> para que tu celular te indique como llegar</p>
+          <p class="section-description">No queremos que te pierdas por eso pon atención a las indicaciones o simplemente da clic en el botón <strong>[Llevame]</strong> para que tu celular te indique cómo llegar</p>
         </div>
       </div>
 
@@ -257,6 +267,105 @@
           <br><img src="img/qrIglesia.png"></a>
           <a href="https://goo.gl/maps/KATGFS9xNSB2" class="btn">A la Recepción
           <br><img src="img/qrQuinta.png"></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+  Porfolio Section
+  ============================-->
+  <section id="portfolio">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">Estancias</h3>
+          <div class="section-title-divider"></div>
+          <p class="section-description">Te recomendamos algunas de las estancias donde podras descansar antes y despues del evento, disfrutando de un espacio tranquilo y coloquial. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelLaCasona.jpeg);" href="http://www.lacasonajilotepec.com" target="_blank">
+            <div class="details">
+              <h4>La Casona</h4>
+              <span>Calle Miguel Hidalgo No. 137, Jilotepec de Molina Enríquez, Estado de México, México 54240, Municipio de Jilotepec</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelLomasInn.jpeg);" href="https://lomas-inn.webnode.mx" target="_blank">
+            <div class="details">
+              <h4>Lomas Inn</h4>
+              <span>Chapa de Mota, Jilotepec, Edo. Méx, Frente a la presa de Danxho</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelHoh.jpeg);" href="http://www.hotelhoh.com" target="_blank">
+            <div class="details">
+              <h4>Hotel Hoh</h4>
+              <span>KM. 108+300 carretera Mexico-Queretaro, 54240, Municipio de Jilotepec</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelOjoAgua.jpeg);" href="https://www.trivago.com.mx/jilotepec-474167/hotel/rancho-ojo-de-agua-9717490" target="_blank">
+            <div class="details">
+              <h4>Rancho Ojo de Agua</h4>
+              <span>Barajas - Chapa de Mata, Jilotepec, México</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelLasCarretas.jpg);" href="https://www.zonaturistica.com/hotel/6731/las-carretas-jilotepec.html" target="_blank">
+            <div class="details">
+              <h4>Las Carretas</h4>
+              <span> Av. Vicente Guerrero No. 180, Centro, Jilotepec, Edo. México - enfrente de la gasolinera del Centro </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelXilonen.jpg);" href="https://www.facebook.com/xilonen.palace" target="_blank">
+            <div class="details">
+              <h4>Hotel Xilonen Palace</h4>
+              <span>Avenida Andrés Molina Enríquez, 117 (Centro) C.P.54240, Jilotepec Edo. de México - Tel: +76 1734 2590</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelReal.jpg);" href="https://es-la.facebook.com/hotel.realjilo" target="_blank">
+            <div class="details">
+              <h4>Hotel Real Jilo</h4>
+              <span>Calle Matamoros, 154 (centro) C.P. 54240, Jilotepec Edo. de México - Tel: +76 1734 0347</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelPinos.jpg);" href="https://jilotepec-mexico.guialis.com.mx/datos/hotel-y-restaurante-los-pinos/998626" target="_blank">
+            <div class="details">
+              <h4>Hotel y Restaurante los Pinos</h4>
+              <span>Calle Álvaro Obregón, 108 (Centro) C.P. 54240, Jilotepec Edo. de México - Tel: +76 1734 2334</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/hotelRubi.jpg);" href="https://es-la.facebook.com/hotel.rubi.92" target="_blank">
+            <div class="details">
+              <h4>Hotel y Restaurante los Pinos</h4>
+              <span>Calle Álvaro Obregón, 108 (Centro) C.P. 54240, Jilotepec Edo. de México - Tel: +76 1734 2334</span>
+            </div>
+          </a>
         </div>
 
       </div>
